@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.magic{
+   
+    position: relative;
+    width: 100%;
+    height:100vh;
+    background:#101010;
+}
+header{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.container1{
+    background-color: rgb(0, 255, 0);
+}
+.container{
+    background-color:rgb(25, 184, 241) ;
+}
+nav{
+    
+   display: flex;
+   width: 84%; 
+   margin: auto;
+   padding: 20px 0;
+   align-items: center;
+   justify-content: space-between;
+
+}
+nav h3{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+nav ul li{
+    
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+nav ul a:hover{
+    color: rgb(179, 75, 34);
+}
+.w3-container{
+    background-color: rgb(25, 184, 241);
+
+}
+.next{
+    
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.next h1{
+    font-family: 'Caveat', cursive;
+    font-size: 37px;
+    color: #212121;
+    margin-bottom: 20px;
+}
+span{
+    font-family: 'Caveat', cursive;
+    color: rgb(66, 3, 102);
+}
+.next p{
+    color: #121414;
+    line-height: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.next a{
+    background: #191919;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffff;
+    display: inline-block;
+    margin:30px 0 ;
+    border-radius: 5px;
+}
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 76%;
+    width: 79%;
+    position: absolute;
+    left: 55%;
+    bottom: 15%;
+    transform: translateX(-50%);
+    transition: bottom 1s,left 1s;
+}
+.images:hover .shape{
+    bottom: 40px;
+}
+.images:hover .wd1{
+    left:58%;
+}
+
+.service{
+    background: #101010;
+    width:100%;
+    padding: 100px 0px;
+
+}
+.title h2{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding:20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+.card i{
+    font-size:50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(25, 184, 241);
+
+}
+h5{
+    color:white;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.cer p{
+    color: #fcfcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+}
+.card .button{
+    background-color: rgb(25, 184, 241);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+    transition: .4s;
+
+}
+.card .button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(25, 184, 241);
+    cursor: pointer;
+}
+footer{
+    position: relative;
+    width:100%;
+    height: 400px;
+    background: #101010;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer p:nth-child(1){
+    font-size: 30px;
+    color: white;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+footer p:nth-child(2){
+    color: white;
+    font-size: 17px;
+    width: 500px;
+    text-align: center;
+    line-height: 26px;
+}
+.social{
+    display: flex;
+}
+.social a{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(25, 184, 241);
+    border-radius: 50%;
+    margin:22px 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social a:hover{
+    transform: scale(1.3);
+    transition: .3s;
+}
+.end{
+    position: absolute;
+    color: rgb(25, 184, 241);
+    bottom: 35px;
+    font-size: 14px;
+}
