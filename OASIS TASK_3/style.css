@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(161, 191, 197);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h3{
+    font-size: 1.75rem;
+  }
+  
+  .container {
+    border: 50px solid rgb(169, 202, 221);
+    background-color: rgb(101, 92, 105);
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .container .main{
+    font-size: 40px;
+  }
+  
+  .converter input {
+    width: 35%;
+    padding: 12px;
+    margin-bottom: 10px;
+  }
+  
+  .converter select {
+    width: 30%;
+    padding: 13px;
+    margin-bottom: 10px;
+  }
+  
+  .converter button {
+    padding: 10px 20px;
+    background-color: rgb(103, 7, 128);
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .converter button:hover {
+    background-color: #723894;
+    transition: 0.3s;
+  }
+  
+  .result{
+    
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    background-color: rgb(0, 0, 0);
+  }
+  
+  #result {
+    
+    font-size: 25px;
+    margin-top: 10px;
+    
+  }
